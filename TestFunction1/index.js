@@ -7,7 +7,7 @@ module.exports = async function (context, req) {
 	// console.log( req.body.name );
 	// console.log('************************************');
 
-	console.log('*** Testing updating Azure Function from package');
+	console.log('*** Testing updating Azure Function from package'); 
 
 	if (req.query.name || (req.body && req.body.name)) {
 		context.res = {
